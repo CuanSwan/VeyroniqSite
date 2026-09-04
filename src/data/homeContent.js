@@ -1,0 +1,57 @@
+export const blurbCards = [
+  {
+    title: 'Built around your business',
+    text: 'We take the time to understand your workflows and buld software that fits the way you work.',
+  },
+  {
+    title: 'Modern technology',
+    text: 'We use reliable scalable technologies to build secure and high-performing solutions.',
+  },
+  {
+    title: 'Easy to use',
+    text: 'Simple intuitive interfaces your team will actually enjoy using everyday.',
+  },
+  {
+    title: 'Designed to grow',
+    text: 'Flexible solutions that scale with your business as your needs evolve',
+  },
+];
+
+export const timelineSteps = [
+  {
+    number: '01',
+    title: 'Discover',
+    text: 'We learn about your business, challenges and goals',
+  },
+  {
+    number: '02',
+    title: 'Plan',
+    text: 'We map your workflows and design the right solution',
+  },
+  {
+    number: '03',
+    title: 'Build',
+    text: 'We develip your software using  modern, proven technologies.',
+  },
+  {
+    number: '04',
+    title: 'Launch',
+    text: 'We test thoroughly and launch with your team ready to go.',
+  },
+  {
+    number: '05',
+    title: 'Improve',
+    text: 'We provide ongoing support and continuous improvements',
+  },
+];
+
+export const faqQuestions = [
+  'What types of software does Veyroniq build?',
+  'Which industries do you work with?',
+  'Do you build custom software?',
+  'Do you provide training and support?',
+  'How long does a project take?',
+  'Is your software secure and reliable?',
+  'Can your software integrate with our existing systems?',
+  'How much does it cost?',
+];
