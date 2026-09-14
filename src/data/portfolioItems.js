@@ -39,7 +39,7 @@ const portfolioItems = [
     ],
   },
   {
-    image: 'images/legerly.png',
+    image: 'images/ledgerly.png',
     title: 'Ledgerly-Invoicing software for Tradespeople',
     description:
       'Ledgerly is a mobile-optimised invoice management software built for mobile sole traders, plumbers, and electricians. Users capture on-site job photos to generate quotes instantly and deploy automated payment chasing workflowsCore Features: Automatic payment chasing, digital quoting engines, mobile receipt uploads.',
@@ -79,7 +79,7 @@ const portfolioItems = [
     ],
   },
   {
-    image: 'images/inventory.png',
+    image: 'images/stockroom.jpg',
     title: 'Stockroom - Barcode Inventory Software for Retail Chains',
     description:
       'Stockroom is a custom inventory management system designed for multi-branch retail businesses. It handles live barcode stock counts across five physical branches of an independent hardware chain, successfully replacing a legacy system of four disconnected spreadsheets.',
@@ -123,7 +123,7 @@ const portfolioItems = [
     ],
   },
   {
-    image: 'images/kerb2.png',
+    image: 'images/kerb.png',
     title: 'Kerb - Appointment Booking Software for Service ProvidersSaas Servicing and bookings',
     description:
       'Kerb is a software-as-a-service (SaaS) appointment engine for barbershops, pet groomers, and automotive garages. The tool processes upfront customer deposits and distributes automated text/email no-show reminders.',
