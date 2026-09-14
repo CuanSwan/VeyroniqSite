@@ -91,3 +91,10 @@
   letter-spacing: 0.06em;
   color: #93A6D6;
 }
+
+.vq-faq-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

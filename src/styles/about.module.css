@@ -102,6 +102,38 @@
   margin-top: 20px;
 }
 
+.vq-faq {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.vq-faq-label {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 13px;
+  font-weight: 700;
+  color: #B98E4B;
+  margin-bottom: 12px;
+}
+
+.vq-h1-3 {
+  font-size: 36px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+
+.vq-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
 @media screen and (max-width: 860px) {
   .vq-div-8 {
     grid-template-columns: 1fr;

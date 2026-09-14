@@ -80,8 +80,8 @@ export default function Home() {
         <h3>Frequently asked questions</h3>
         <h1>Everything you need to know.</h1>
         <div className={styles['question-box']}>
-          {faqQuestions.map((question) => (
-            <FaqItem key={question} question={question} />
+          {faqQuestions.map((faq) => (
+            <FaqItem key={faq.question} question={faq.question} answer={faq.answer} />
           ))}
         </div>
       </div>

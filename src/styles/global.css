@@ -194,3 +194,62 @@ a:hover { color: #C9D6F5; }
 }
 
 .vq-a-8:hover { color: #FFFFFF; }
+
+/* Shared FAQ accordion (used on Home, About and Portfolio) */
+.vq-accordion-item {
+  text-align: left;
+  background: #17306E;
+  border: 1px solid #24357A;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vq-accordion-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: 'Archivo', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.vq-accordion-question:hover { background: #1D3A85; }
+
+.vq-accordion-icon {
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #B98E4B;
+  border-bottom: 2px solid #B98E4B;
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.vq-accordion-item[data-open='true'] .vq-accordion-icon {
+  transform: rotate(-135deg);
+}
+
+.vq-accordion-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+
+.vq-accordion-item[data-open='true'] .vq-accordion-answer {
+  max-height: 400px;
+}
+
+.vq-accordion-answer p {
+  padding: 0 22px 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #BCC9EA;
+}

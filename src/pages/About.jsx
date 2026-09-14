@@ -1,5 +1,7 @@
 import TeamMember from '../components/TeamMember.jsx';
+import FaqItem from '../components/FaqItem.jsx';
 import team from '../data/team.js';
+import aboutFaqs from '../data/aboutFaqs.js';
 import styles from '../styles/about.module.css';
 
 export default function About() {
@@ -40,6 +42,17 @@ export default function About() {
           <TeamMember key={member.name} {...member} />
         ))}
       </div>
+      <section className={styles['vq-faq']}>
+        <h3 className={styles['vq-faq-label']}>Frequently asked questions</h3>
+        <h1 className={styles['vq-h1-3']}>
+          Frequently Asked Questions About Our Business Software
+        </h1>
+        <div className={styles['vq-faq-list']}>
+          {aboutFaqs.map((faq) => (
+            <FaqItem key={faq.question} question={faq.question} answer={faq.answer} />
+          ))}
+        </div>
+      </section>
     </main>
   );
 }
