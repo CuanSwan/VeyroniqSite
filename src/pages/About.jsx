@@ -1,10 +1,17 @@
 import TeamMember from '../components/TeamMember.jsx';
 import FaqItem from '../components/FaqItem.jsx';
+import FaqSchema from '../components/FaqSchema.jsx';
+import usePageMeta from '../hooks/usePageMeta.js';
 import team from '../data/team.js';
 import aboutFaqs from '../data/aboutFaqs.js';
 import styles from '../styles/about.module.css';
 
 export default function About() {
+  usePageMeta(
+    'About Veyroniq — Custom Software Studio & Team',
+    "Veyroniq Software Studio was founded in London in 2020. Meet the team behind our custom B2B SaaS products and business applications, and find answers to frequently asked questions about our business software."
+  );
+
   return (
     <main className="vq-main-1">
       <div>
@@ -43,6 +50,7 @@ export default function About() {
         ))}
       </div>
       <section className={styles['vq-faq']}>
+        <FaqSchema faqs={aboutFaqs} />
         <h3 className={styles['vq-faq-label']}>Frequently asked questions</h3>
         <h1 className={styles['vq-h1-3']}>
           Frequently Asked Questions About Our Business Software

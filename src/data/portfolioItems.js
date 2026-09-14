@@ -87,6 +87,11 @@ const portfolioItems = [
     infrastructure: 'Infrastructure: Built using a foundation of Python, Django, Postgres with dynamic styling using XML',
     faqs: [
       {
+        question: 'What is multi-branch inventory management software?',
+        answer:
+          'Multi-branch inventory management software lets a retail business track stock levels, locations and movement across more than one site from a single, central platform, replacing separate spreadsheets or manual counts per branch. Stockroom is built specifically for this, giving multi-branch retailers one place to see and manage inventory across every location.',
+      },
+      {
         question: 'What is Stockroom?',
         answer:
           'Stockroom is retail inventory management software designed to help businesses track products, monitor stock levels and manage inventory across multiple branches.',
@@ -125,6 +130,11 @@ const portfolioItems = [
     scale: 'Active Scale: 50 active accounts',
     infrastructure: 'Infrastructure: Built via React and Node with transaction processing powered by Stripe',
     faqs: [
+      {
+        question: 'How can appointment booking software reduce no-shows?',
+        answer:
+          'Appointment booking software reduces no-shows by combining automated reminders with upfront deposits, giving customers a clear incentive to attend and businesses fewer missed bookings to absorb. Kerb builds both into its platform, sending automated reminders and collecting deposits so appointment-based businesses lose less revenue to no-shows.',
+      },
       {
         question: 'What is Kerb?',
         answer:

@@ -2,11 +2,18 @@ import ProjectCard from '../components/ProjectCard.jsx';
 import BlurbCard from '../components/BlurbCard.jsx';
 import TimelineStep from '../components/TimelineStep.jsx';
 import FaqItem from '../components/FaqItem.jsx';
+import FaqSchema from '../components/FaqSchema.jsx';
+import usePageMeta from '../hooks/usePageMeta.js';
 import projects from '../data/projects.js';
 import { blurbCards, timelineSteps, faqQuestions } from '../data/homeContent.js';
 import styles from '../styles/home.module.css';
 
 export default function Home() {
+  usePageMeta(
+    'Veyroniq — Custom Software & SaaS for Growing Businesses',
+    'Veyroniq builds custom B2B SaaS products and business software — workforce scheduling, invoicing, retail inventory and appointment booking — for growing businesses in hospitality, trades, retail and services.'
+  );
+
   return (
     <main>
       {/* Hero section */}
@@ -77,6 +84,7 @@ export default function Home() {
 
       {/* Frequently asked questions */}
       <div className={styles.faq}>
+        <FaqSchema faqs={faqQuestions} />
         <h3>Frequently asked questions</h3>
         <h1>Everything you need to know.</h1>
         <div className={styles['question-box']}>
