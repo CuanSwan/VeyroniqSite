@@ -2,18 +2,22 @@ export const blurbCards = [
   {
     title: 'Built around your business',
     text: 'We take the time to understand your workflows and buld software that fits the way you work.',
+    icon: 'person',
   },
   {
     title: 'Modern technology',
     text: 'We use reliable scalable technologies to build secure and high-performing solutions.',
+    icon: 'code',
   },
   {
     title: 'Easy to use',
     text: 'Simple intuitive interfaces your team will actually enjoy using everyday.',
+    icon: 'settings',
   },
   {
     title: 'Designed to grow',
     text: 'Flexible solutions that scale with your business as your needs evolve',
+    icon: 'chart',
   },
 ];
 
