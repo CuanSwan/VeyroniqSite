@@ -34,7 +34,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles['hero-image']}>
-          <img src="images/hero-dashboard.jpg" alt="Veyroniq software dashboard" />
+          <img src="images/hero-dashboard.png" alt="Veyroniq software dashboard" />
         </div>
       </div>
 
