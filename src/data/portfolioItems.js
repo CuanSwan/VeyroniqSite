@@ -79,7 +79,7 @@ const portfolioItems = [
     ],
   },
   {
-    image: 'images/stockroom.jpg',
+    image: 'images/stockroom.png',
     title: 'Stockroom - Barcode Inventory Software for Retail Chains',
     description:
       'Stockroom is a custom inventory management system designed for multi-branch retail businesses. It handles live barcode stock counts across five physical branches of an independent hardware chain, successfully replacing a legacy system of four disconnected spreadsheets.',

@@ -16,20 +16,25 @@ export default function Home() {
     <main>
       {/* Hero section */}
       <div className={styles.hero}>
-        <div className={styles['hero-text']}>
-          <h3>CUSTOM SOFTWARE & SAAS</h3>
-          <h1>
-            Software built for the <span>shop,</span> not the boardroom.
-          </h1>
-          <p>
-            Veyroniq builds custom software and SaaS solutions for growing
-            busnesses, replacing the spreadsheets, manual processes and
-            disconnected systems that slow your business down.
-          </p>
+        <div className={styles['hero-content']}>
+          <div className={styles['hero-text']}>
+            <h3>CUSTOM SOFTWARE & SAAS</h3>
+            <h1>
+              Software built for the <span>shop,</span> not the boardroom.
+            </h1>
+            <p>
+              Veyroniq builds custom software and SaaS solutions for growing
+              busnesses, replacing the spreadsheets, manual processes and
+              disconnected systems that slow your business down.
+            </p>
+          </div>
+          <div>
+            <button className={styles['project-button']}>Start a project</button>
+            <button className={styles['explore-button']}>Explore our products</button>
+          </div>
         </div>
-        <div>
-          <button className={styles['project-button']}>Start a project</button>
-          <button className={styles['explore-button']}>Explore our products</button>
+        <div className={styles['hero-image']}>
+          <img src="images/hero-dashboard.jpg" alt="Veyroniq software dashboard" />
         </div>
       </div>
 
