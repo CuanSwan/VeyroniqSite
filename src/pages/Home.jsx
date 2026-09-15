@@ -1,11 +1,9 @@
 import ProjectCard from '../components/ProjectCard.jsx';
 import BlurbCard from '../components/BlurbCard.jsx';
 import TimelineStep from '../components/TimelineStep.jsx';
-import FaqItem from '../components/FaqItem.jsx';
-import FaqSchema from '../components/FaqSchema.jsx';
 import usePageMeta from '../hooks/usePageMeta.js';
 import projects from '../data/projects.js';
-import { blurbCards, timelineSteps, faqQuestions } from '../data/homeContent.js';
+import { blurbCards, timelineSteps } from '../data/homeContent.js';
 import styles from '../styles/home.module.css';
 
 export default function Home() {
@@ -78,18 +76,6 @@ export default function Home() {
         <div className={styles.tracker}>
           {timelineSteps.map((step) => (
             <TimelineStep key={step.number} {...step} />
-          ))}
-        </div>
-      </div>
-
-      {/* Frequently asked questions */}
-      <div className={styles.faq}>
-        <FaqSchema faqs={faqQuestions} />
-        <h3>Frequently asked questions</h3>
-        <h1>Everything you need to know.</h1>
-        <div className={styles['question-box']}>
-          {faqQuestions.map((faq) => (
-            <FaqItem key={faq.question} question={faq.question} answer={faq.answer} />
           ))}
         </div>
       </div>

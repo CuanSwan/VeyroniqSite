@@ -24,6 +24,7 @@ const team = [
     name: 'Olona Khuzwayo',
     role: 'Technical Executive',
     image: 'team/Olona.png',
+    imagePosition: 'center 15%',
     bio: 'Olona helps drive the technical side of Veyroniq, contributing to the development and delivery of reliable, scalable software solutions for businesses.',
     tagline: 'Solving complex problems through technology.',
   },

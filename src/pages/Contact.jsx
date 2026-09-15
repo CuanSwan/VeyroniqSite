@@ -1,4 +1,5 @@
 import ContactForm from '../components/ContactForm.jsx';
+import FaqItem from '../components/FaqItem.jsx';
 import FaqSchema from '../components/FaqSchema.jsx';
 import usePageMeta from '../hooks/usePageMeta.js';
 import contactFaqs from '../data/contactFaqs.js';
@@ -24,14 +25,15 @@ export default function Contact() {
           </div>
         </section>
       </div>
-      <div className={styles['vq-div-5']}>
-        {contactFaqs.map((faq) => (
-          <div className={styles['vq-div-6']} key={faq.question}>
-            <p className={styles['vq-p-3']}>{faq.question}</p>
-            <p className={styles['vq-p-4']}>{faq.answer}</p>
-          </div>
-        ))}
-      </div>
+      <section className={styles['vq-faq']}>
+        <h3 className={styles['vq-faq-label']}>Frequently asked questions</h3>
+        <h1 className={styles['vq-h1-2']}>Everything you need to know.</h1>
+        <div className={styles['vq-faq-list']}>
+          {contactFaqs.map((faq) => (
+            <FaqItem key={faq.question} question={faq.question} answer={faq.answer} />
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

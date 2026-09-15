@@ -1,28 +1,43 @@
 const contactFaqs = [
   {
-    question: 'Q: Where is Veyroniq located?',
+    question: 'What types of software does Veyroniq build?',
     answer:
-      'A: Veyroniq is headquartered in London, United Kingdom, and services local businesses across the region.',
+      'We build custom B2B SaaS products and business applications, including workforce scheduling, invoicing, retail inventory and appointment booking software.',
   },
   {
-    question: 'What types of custom software do you build?',
+    question: 'Which industries do you work with?',
     answer:
-      'We build automated booking engines, stock management networks, barcode scanners, invoicing workflows, and custom hospitality scheduling tools.',
+      'We work with hospitality, trades, retail and appointment-based service businesses, along with other growing businesses that need software built around their workflows.',
   },
   {
-    question: 'Q: How fast does Veyroniq reply to project enquiries?',
+    question: 'Do you build custom software?',
     answer:
-      'A: Our team reviews and replies to all custom software design enquiries within one working day.',
+      'Yes. Every solution is designed around your specific operations, so functionality and workflows are aligned with the way your business actually works.',
   },
   {
-    question: 'Q: When should a business switch from spreadsheets to custom software?',
+    question: 'Do you provide training and support?',
     answer:
-      'A: Local businesses should migrate from spreadsheets to custom software when manual data tracking causes data silos, billing delays, or scheduling conflicts. Veyroniq builds automated systems that eliminate manual errors.',
+      'Yes. Once your software is live we provide ongoing support and continuous improvements to keep it working for your business as it grows.',
   },
   {
-    question: 'Q: Can another developer modify software built by Veyroniq?',
+    question: 'How long does a project take?',
     answer:
-      'A: Yes. Veyroniq uses industry-standard, open-source programming frameworks including Python, Django, and React, allowing any external development team to easily manage the codebase.',
+      'Timelines depend on the scope of the project. We follow a proven process of discovery, planning, building, launching and improving to keep every project moving efficiently.',
+  },
+  {
+    question: 'Is your software secure and reliable?',
+    answer:
+      'Yes. We use reliable, scalable technologies to build software that is secure and high-performing from day one.',
+  },
+  {
+    question: 'Can your software integrate with our existing systems?',
+    answer:
+      'Yes. We design our solutions to fit alongside the tools and systems your business already relies on wherever possible.',
+  },
+  {
+    question: 'How much does it cost?',
+    answer:
+      "Cost depends on the size and complexity of your project. Get in touch and we'll talk through your requirements to give you a clear picture.",
   },
 ];
 

@@ -171,23 +171,6 @@
   margin: 20px;
 }
 
-.faq {
-  padding: 50px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #BCC9EA;
-}
-
-.question-box {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-  padding: 10px;
-  width: 90%;
-}
-
 .call-to-action {
   display: flex;
   padding: 20px;
@@ -206,8 +189,3 @@
   color: white;
 }
 
-@media screen and (max-width: 860px) {
-  .question-box {
-    grid-template-columns: 1fr;
-  }
-}
