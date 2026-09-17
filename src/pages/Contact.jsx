@@ -27,7 +27,7 @@ export default function Contact() {
       </div>
       <section className={styles['vq-faq']}>
         <h3 className={styles['vq-faq-label']}>Frequently asked questions</h3>
-        <h1 className={styles['vq-h1-2']}>Everything you need to know.</h1>
+        <h2 className={styles['vq-h1-2']}>Everything you need to know.</h2>
         <div className={styles['vq-faq-list']}>
           {contactFaqs.map((faq) => (
             <FaqItem key={faq.question} question={faq.question} answer={faq.answer} />

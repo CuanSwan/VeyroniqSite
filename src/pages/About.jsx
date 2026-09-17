@@ -52,9 +52,9 @@ export default function About() {
       <section className={styles['vq-faq']}>
         <FaqSchema faqs={aboutFaqs} />
         <h3 className={styles['vq-faq-label']}>Frequently asked questions</h3>
-        <h1 className={styles['vq-h1-3']}>
+        <h2 className={styles['vq-h1-3']}>
           Frequently Asked Questions About Our Business Software
-        </h1>
+        </h2>
         <div className={styles['vq-faq-list']}>
           {aboutFaqs.map((faq) => (
             <FaqItem key={faq.question} question={faq.question} answer={faq.answer} />

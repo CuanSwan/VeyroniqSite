@@ -7,7 +7,7 @@ export default function ProjectCard({ name, subtitle, text, icon }) {
       <div className={styles['card-icon']}>
         <Icon type={icon} />
       </div>
-      <h1 className={styles['card-heading']}>{name}</h1>
+      <h3 className={styles['card-heading']}>{name}</h3>
       <h4 className={styles['card-sub']}>{subtitle}</h4>
       <p className={styles['card-text']}>{text}</p>
       <a className={styles['card-link']} href="#">

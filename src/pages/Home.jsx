@@ -47,7 +47,7 @@ export default function Home() {
       <div className={styles['portfolio-banner']}>
         <div className={styles['portfolio-header']}>
           <h3>Our software solutions</h3>
-          <h1>Software built around real business problems</h1>
+          <h2>Software built around real business problems</h2>
           <p>
             From managing teams and collection payments to tracking inventory
             and booking customers, our software solutions are designed to
@@ -66,8 +66,8 @@ export default function Home() {
       <div className={styles.blurb}>
         <div className={styles['blurb-hero']}>
           <h3>Why businesses choose Veyroniq</h3>
-          <h1>Practical software.</h1>
-          <h1>Real impact.</h1>
+          <h2>Practical software.</h2>
+          <h2>Real impact.</h2>
           <p>
             We don't just build software, we solve problems. Our solutions
             help businesses save time, reduce manual work and get the clarity
@@ -82,7 +82,7 @@ export default function Home() {
       {/* Timeline section */}
       <div className={styles.timeline}>
         <h3>Our process</h3>
-        <h1>A simple, proven way to build software.</h1>
+        <h2>A simple, proven way to build software.</h2>
         <div className={styles.tracker}>
           {timelineSteps.map((step) => (
             <TimelineStep key={step.number} {...step} />
@@ -93,7 +93,7 @@ export default function Home() {
       <div className={styles['call-to-action']}>
         <span></span>
         <div>
-          <h1>Have a business problem that software could solve?</h1>
+          <h2>Have a business problem that software could solve?</h2>
           <p>Let's build something that makes your business better</p>
         </div>
         <a href="/contact">Let's talk -&gt;</a>

@@ -93,6 +93,11 @@
   margin: 20px 0px;
 }
 
+.portfolio-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .card {
   padding: 20px;
   text-align: left;
@@ -118,6 +123,8 @@
 
 .card-heading {
   margin: 5px 0;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .card-sub {
@@ -152,6 +159,11 @@
   max-width: 500px;
 }
 
+.blurb-hero h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .blurb-card {
   flex-grow: 1;
   max-width: 300px;
@@ -181,6 +193,11 @@
   padding: 50px;
 }
 
+.timeline h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .tracker {
   display: flex;
   margin: 20px;
@@ -207,6 +224,11 @@
   display: flex;
   padding: 20px;
   justify-content: center;
+}
+
+.call-to-action h2 {
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .call-to-action a {

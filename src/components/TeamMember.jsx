@@ -12,8 +12,8 @@ export default function TeamMember({ name, role, image, imagePosition, bio, tagl
         />
       </div>
       <div>
-        <h1>{name}</h1>
-        <h2 className={styles['vq-h1-2']}>{role}</h2>
+        <h3 className={styles['vq-member-name']}>{name}</h3>
+        <h4 className={styles['vq-h1-2']}>{role}</h4>
         <hr />
         <p>{bio}</p>
         <p>
