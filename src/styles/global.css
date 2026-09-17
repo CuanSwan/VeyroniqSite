@@ -74,6 +74,7 @@ a:hover { color: #C9D6F5; }
 .vq-nav-1 {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -252,4 +253,22 @@ a:hover { color: #C9D6F5; }
   font-size: 14px;
   line-height: 1.6;
   color: #BCC9EA;
+}
+
+@media screen and (max-width: 640px) {
+  .vq-div-2 {
+    justify-content: center;
+    padding: 16px 20px;
+    text-align: center;
+  }
+
+  .vq-nav-1 {
+    justify-content: center;
+  }
+
+  .vq-a-2,
+  .vq-a-3 {
+    padding: 10px 12px;
+    font-size: 12px;
+  }
 }

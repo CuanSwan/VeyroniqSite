@@ -58,10 +58,14 @@
   margin-left: 40px;
 }
 
-.hero button {
+.project-button,
+.explore-button {
+  display: inline-block;
   padding: 20px 40px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #C9D6F5;
+  cursor: pointer;
 }
 
 .projects {
@@ -225,6 +229,55 @@
 
   .hero-image {
     max-width: 100%;
+  }
+
+  .portfolio-banner {
+    padding: 40px 24px;
+  }
+
+  .portfolio-header {
+    max-width: 100%;
+  }
+
+  .projects {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .blurb {
+    flex-direction: column;
+    padding: 40px 24px;
+  }
+
+  .blurb-hero,
+  .blurb-card {
+    max-width: 100%;
+  }
+
+  .tracker {
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .tracker div {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+
+  .call-to-action {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .call-to-action a {
+    margin: 0;
+    justify-content: center;
   }
 }
 

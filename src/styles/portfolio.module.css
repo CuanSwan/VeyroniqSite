@@ -99,3 +99,18 @@
   flex-direction: column;
   gap: 12px;
 }
+
+@media screen and (max-width: 860px) {
+  .vq-div-3 {
+    padding: 60px 24px 24px;
+  }
+
+  .vq-div-4 {
+    grid-template-columns: 1fr;
+    padding: 0 24px 60px;
+  }
+
+  .vq-h1-1 {
+    font-size: 36px;
+  }
+}

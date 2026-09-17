@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard.jsx';
 import BlurbCard from '../components/BlurbCard.jsx';
 import TimelineStep from '../components/TimelineStep.jsx';
@@ -29,8 +30,12 @@ export default function Home() {
             </p>
           </div>
           <div>
-            <button className={styles['project-button']}>Start a project</button>
-            <button className={styles['explore-button']}>Explore our products</button>
+            <Link to="/contact" className={styles['project-button']}>
+              Start a project
+            </Link>
+            <Link to="/portfolio" className={styles['explore-button']}>
+              Explore our products
+            </Link>
           </div>
         </div>
         <div className={styles['hero-image']}>

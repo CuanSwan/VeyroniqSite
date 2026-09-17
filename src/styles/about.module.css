@@ -135,6 +135,20 @@
 }
 
 @media screen and (max-width: 860px) {
+  .vq-div-3 {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 0 24px;
+  }
+
+  .vq-div-4 {
+    padding: 48px 0 0;
+  }
+
+  .vq-div-6 {
+    min-height: 320px;
+  }
+
   .vq-div-8 {
     grid-template-columns: 1fr;
   }
