@@ -35,7 +35,7 @@ export const timelineSteps = [
   {
     number: '03',
     title: 'Build',
-    text: 'We develip your software using  modern, proven technologies.',
+    text: 'We develop your software using modern, proven technologies.',
   },
   {
     number: '04',
