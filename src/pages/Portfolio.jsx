@@ -6,7 +6,7 @@ import styles from '../styles/portfolio.module.css';
 
 export default function Portfolio() {
   usePageMeta(
-    'Portfolio — Rota, Ledgerly, Stockroom & Kerb | Veyroniq',
+    'Rota, Ledgerly, Stockroom & Kerb | Veyroniq Portfolio',
     "Explore Veyroniq's software portfolio: Rota for hospitality staff scheduling, Ledgerly for mobile invoicing, Stockroom for multi-branch retail inventory, and Kerb for appointment booking."
   );
 

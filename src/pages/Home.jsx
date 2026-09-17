@@ -9,8 +9,8 @@ import styles from '../styles/home.module.css';
 
 export default function Home() {
   usePageMeta(
-    'Veyroniq — Custom Software & SaaS for Growing Businesses',
-    'Veyroniq builds custom B2B SaaS products and business software — workforce scheduling, invoicing, retail inventory and appointment booking — for growing businesses in hospitality, trades, retail and services.'
+    'Veyroniq | Custom Software & SaaS for Growing Businesses',
+    'Veyroniq builds custom B2B SaaS products and business software, including workforce scheduling, invoicing, retail inventory and appointment booking, for growing businesses in hospitality, trades, retail and services.'
   );
 
   return (
@@ -25,7 +25,7 @@ export default function Home() {
             </h1>
             <p>
               Veyroniq builds custom software and SaaS solutions for growing
-              busnesses, replacing the spreadsheets, manual processes and
+              businesses, replacing the spreadsheets, manual processes and
               disconnected systems that slow your business down.
             </p>
           </div>
@@ -65,7 +65,7 @@ export default function Home() {
       {/* Blurb and mission statement */}
       <div className={styles.blurb}>
         <div className={styles['blurb-hero']}>
-          <h3>why Businesses choose veroniq</h3>
+          <h3>Why businesses choose Veyroniq</h3>
           <h1>Practical software.</h1>
           <h1>Real impact.</h1>
           <p>
@@ -94,7 +94,7 @@ export default function Home() {
         <span></span>
         <div>
           <h1>Have a business problem that software could solve?</h1>
-          <p>Let's build somthing that makes your business better</p>
+          <p>Let's build something that makes your business better</p>
         </div>
         <a href="/contact">Let's talk -&gt;</a>
       </div>

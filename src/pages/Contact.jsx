@@ -7,7 +7,7 @@ import styles from '../styles/contact.module.css';
 
 export default function Contact() {
   usePageMeta(
-    'Contact Veyroniq — Start a Software Project',
+    'Contact Veyroniq | Start a Software Project',
     'Get in touch with Veyroniq to discuss a custom software or SaaS project for your business, and find answers to common questions about working with us.'
   );
 

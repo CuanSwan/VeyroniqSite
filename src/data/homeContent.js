@@ -1,7 +1,7 @@
 export const blurbCards = [
   {
     title: 'Built around your business',
-    text: 'We take the time to understand your workflows and buld software that fits the way you work.',
+    text: 'We take the time to understand your workflows and build software that fits the way you work.',
     icon: 'person',
   },
   {

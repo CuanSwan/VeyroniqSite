@@ -3,7 +3,7 @@ const team = [
     name: 'Roma Cheethan Lal',
     role: 'Founder',
     image: 'team/Roma.png',
-    bio: 'Roma leads Veyroniq with a focus on building meaningful technology, strong client relationships and a company that values quality over quantitiy',
+    bio: 'Roma leads Veyroniq with a focus on building meaningful technology, strong client relationships and a company that values quality over quantity',
     tagline: 'Building the vision. Creating the foundation',
   },
   {

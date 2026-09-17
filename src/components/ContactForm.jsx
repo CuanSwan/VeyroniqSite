@@ -70,7 +70,7 @@ export default function ContactForm() {
         Send enquiry
       </button>
       {sent && (
-        <p className={styles['vq-p-2']}>Thanks — we will reply within one working day.</p>
+        <p className={styles['vq-p-2']}>Thanks, we will reply within one working day.</p>
       )}
     </form>
   );

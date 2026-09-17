@@ -8,7 +8,7 @@ import styles from '../styles/about.module.css';
 
 export default function About() {
   usePageMeta(
-    'About Veyroniq — Custom Software Studio & Team',
+    'About Veyroniq | Custom Software Studio & Team',
     "Veyroniq Software Studio was founded in London in 2020. Meet the team behind our custom B2B SaaS products and business applications, and find answers to frequently asked questions about our business software."
   );
 
@@ -25,7 +25,7 @@ export default function About() {
                 <p className={styles['vq-p-1']}>
                   Veyroniq Software Studio was founded in London in 2020 with
                   a simple belief: Great software should make people's work
-                  better — not harder. Today, our team of six specialist
+                  better, not harder. Today, our team of six specialist
                   developers designs, builds, deploys and maintains custom
                   B2B SaaS products and business applications. But behind
                   every line of code is a person, a business, and a problem

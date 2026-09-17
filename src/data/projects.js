@@ -2,13 +2,13 @@ const projects = [
   {
     name: 'Rota',
     subtitle: 'Hospitality Staff Scheduling & Workforce Management',
-    text: 'Plan shifts, manage availability and keep your hospitality team organised wiht purpose-built scheduling software.',
+    text: 'Plan shifts, manage availability and keep your hospitality team organised with purpose-built scheduling software.',
     icon: 'person',
   },
   {
     name: 'Ledgerly',
     subtitle: 'Mobile Invoicing & Payment Management',
-    text: 'Create quotes, send invoices, manage reciepts and follow up on payments from wherever the job takes you',
+    text: 'Create quotes, send invoices, manage receipts and follow up on payments from wherever the job takes you',
     icon: 'file',
   },
   {

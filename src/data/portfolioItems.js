@@ -1,7 +1,7 @@
 const portfolioItems = [
   {
     image: 'images/rota.png',
-    title: 'Rota - Saas for hospitality and Shift management',
+    title: 'Rota - SaaS for hospitality and Shift management',
     description: '',
     scale: 'Active Scale: 10 active sites',
     infrastructure: 'Built via React with backend and management functionality using Node and Postgres',
@@ -42,7 +42,7 @@ const portfolioItems = [
     image: 'images/ledgerly.png',
     title: 'Ledgerly-Invoicing software for Tradespeople',
     description:
-      'Ledgerly is a mobile-optimised invoice management software built for mobile sole traders, plumbers, and electricians. Users capture on-site job photos to generate quotes instantly and deploy automated payment chasing workflowsCore Features: Automatic payment chasing, digital quoting engines, mobile receipt uploads.',
+      'Ledgerly is a mobile-optimised invoice management software built for mobile sole traders, plumbers, and electricians. Users capture on-site job photos to generate quotes instantly and deploy automated payment chasing workflows. Core Features: Automatic payment chasing, digital quoting engines, mobile receipt uploads.',
     scale: 'Active Scale: 150 active business accounts',
     infrastructure: 'Infrastructure: Built via Typescript with automated transaction processing powered by Stripe on AWS',
     faqs: [
@@ -124,7 +124,7 @@ const portfolioItems = [
   },
   {
     image: 'images/kerb.png',
-    title: 'Kerb - Appointment Booking Software for Service ProvidersSaas Servicing and bookings',
+    title: 'Kerb - Appointment Booking Software for Service Providers SaaS Servicing and bookings',
     description:
       'Kerb is a software-as-a-service (SaaS) appointment engine for barbershops, pet groomers, and automotive garages. The tool processes upfront customer deposits and distributes automated text/email no-show reminders.',
     scale: 'Active Scale: 50 active accounts',
