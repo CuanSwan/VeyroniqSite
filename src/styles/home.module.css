@@ -71,6 +71,9 @@
 .projects {
   display: flex;
   justify-content: center;
+  width: 100%;
+  max-width: 1160px;
+  gap: 20px;
 }
 
 .portfolio-banner {
@@ -103,8 +106,8 @@
 .card {
   padding: 20px;
   text-align: left;
-  max-width: 15%;
-  margin: 10px;
+  flex: 1;
+  max-width: 280px;
   background-color: #ffffff;
   border-radius: 5px;
   color: #0A1636;
