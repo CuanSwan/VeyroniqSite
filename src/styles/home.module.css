@@ -85,6 +85,8 @@
 .portfolio-header {
   max-width: 50%;
   color: #0A1636;
+  text-align: left;
+  align-self: flex-start;
 }
 
 .portfolio-header h3 {
@@ -193,6 +195,12 @@
   padding: 50px;
 }
 
+.timeline h3,
+.timeline h2 {
+  align-self: flex-start;
+  text-align: left;
+}
+
 .timeline h2 {
   font-size: 32px;
   font-weight: 700;
@@ -293,7 +301,7 @@
 
   .call-to-action {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
     gap: 20px;
   }
 
