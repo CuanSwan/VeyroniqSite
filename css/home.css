@@ -126,6 +126,11 @@
   justify-content: center;
 }
 
+.card-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
 .card-heading {
   margin: 5px 0;
   font-size: 32px;
@@ -186,6 +191,11 @@
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+.blurb-icon svg {
+  width: 28px;
+  height: 28px;
 }
 
 .timeline {
@@ -313,4 +323,3 @@
     justify-content: center;
   }
 }
-

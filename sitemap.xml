@@ -5,15 +5,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://veyroniq.netlify.app/portfolio</loc>
+    <loc>https://veyroniq.netlify.app/portfolio.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://veyroniq.netlify.app/about</loc>
+    <loc>https://veyroniq.netlify.app/about.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://veyroniq.netlify.app/contact</loc>
+    <loc>https://veyroniq.netlify.app/contact.html</loc>
     <priority>0.6</priority>
   </url>
 </urlset>
