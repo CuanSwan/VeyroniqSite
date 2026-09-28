@@ -96,9 +96,24 @@
   color: #B98E4B;
 }
 
+.vq-button-1:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.vq-button-1:disabled:hover {
+  background: #2746A8;
+  color: #FFFFFF;
+}
+
 .vq-p-2 {
   font-size: 15px;
   color: #B98E4B;
+}
+
+.vq-p-error {
+  font-size: 15px;
+  color: #E0777A;
 }
 
 .vq-faq {
