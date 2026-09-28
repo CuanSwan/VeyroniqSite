@@ -1,3 +1,8 @@
+// After deploying cloudflare-worker/send-email.js (see its README),
+// replace this with the URL wrangler prints, e.g.
+// 'https://veyroniq-contact-form.your-subdomain.workers.dev'
+const WORKER_URL = 'https://REPLACE-ME.workers.dev';
+
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.querySelector('.vq-form-1');
   if (!form) return;
@@ -24,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     submitButton.textContent = 'Sending...';
 
     try {
-      const response = await fetch('/.netlify/functions/send-email', {
+      const response = await fetch(WORKER_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),

@@ -1,6 +1,8 @@
-# Copy this file to .env for local `netlify dev` testing.
-# In production, set these under Site configuration > Environment variables
-# in the Netlify dashboard — never commit real values to the repo.
+# Copy this file to .dev.vars for local `wrangler dev` testing.
+# For the deployed Worker, set these as secrets instead (never committed):
+#   wrangler secret put RESEND_API_KEY
+#   wrangler secret put CONTACT_TO_EMAIL
+#   wrangler secret put CONTACT_FROM_EMAIL   (optional)
 
 # Resend API key (https://resend.com/api-keys)
 RESEND_API_KEY=
@@ -14,3 +16,8 @@ CONTACT_TO_EMAIL=
 # address on your own Resend account — fine for testing, not for real
 # enquiries until you verify a sending domain.
 CONTACT_FROM_EMAIL=
+
+# Optional. Restricts which site is allowed to call this Worker. Once you
+# know your real domain, set this and redeploy — until then it defaults
+# to allowing any origin.
+ALLOWED_ORIGIN=
